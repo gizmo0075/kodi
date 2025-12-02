@@ -10,7 +10,7 @@
         <summary>My Custom Video Plugin</summary>
         <description>A sample video plugin for Kodi</description>
         <platform>all</platform>
-        <source>https://github.com/yourusername/your-repo-name</source>
+        <source>https://github.com/gizmo0075/kodi</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
