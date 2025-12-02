@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.myrepo" name="My Repository" version="1.0.0" provider-name="YourName">
     <extension point="xbmc.addon.repository" name="My Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo/build-repo/build-repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo/build-repo/build-repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo/build-repo/build-repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo-clean/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo-clean/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo-clean/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -18,6 +19,7 @@
         </assets>
     </extension>
 </addon>
+
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.mybuild" name="My Build" version="1.0.0" provider-name="YourName">
     <requires>
@@ -30,11 +32,11 @@
         <summary>My Custom Video Plugin</summary>
         <description>A sample video plugin for Kodi</description>
         <platform>all</platform>
-        <source>https://github.com/gizmo0075/kodi/tree/main/build-repo</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
+
 </addons>
