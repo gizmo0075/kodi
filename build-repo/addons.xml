@@ -1,1 +1,40 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons></addons>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.myrepo" name="My Repository" version="1.0.0" provider-name="YourName">
+    <extension point="xbmc.addon.repository" name="My Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>My Custom Kodi Repository</summary>
+        <description>Repository containing my custom Kodi addons</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.mybuild" name="My Build" version="1.0.0" provider-name="YourName">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>My Custom Video Plugin</summary>
+        <description>A sample video plugin for Kodi</description>
+        <platform>all</platform>
+        <source>https://github.com/gizmo0075/kodi/tree/main/build-repo</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
