@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.myrepo" name="My Repository" version="1.0.0" provider-name="You">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.myrepo" name="My Repository" version="1.0.0" provider-name="YourName">
     <extension point="xbmc.addon.repository" name="My Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/gizmo0075/kodi/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gizmo0075/kodi/main/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gizmo0075/kodi/main/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo-clean/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo-clean/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gizmo0075/kodi/main/build-repo-clean/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -18,8 +18,8 @@
         </assets>
     </extension>
 </addon>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.mybuild" name="My Build" version="1.0.0" provider-name="You">
+
+<addon id="plugin.mybuild" name="My Build" version="1.0.0" provider-name="YourName">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
