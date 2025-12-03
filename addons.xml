@@ -3,9 +3,9 @@
 <addon id="repository.myrepo" name="My Repository" version="1.0.0" provider-name="YourName">
     <extension point="xbmc.addon.repository" name="My Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/gizmo0075/kodi/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gizmo0075/kodi/main/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gizmo0075/kodi/main/zips/</datadir>
+            <info compressed="false">https://gizmo0075.github.io/kodi/addons.xml</info>
+            <checksum>https://gizmo0075.github.io/kodi/addons.xml.md5</checksum>
+            <datadir zip="true">https://gizmo0075.github.io/kodi/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
